@@ -68,16 +68,16 @@ class LoginScreenState extends State<LoginScreen>
                 children: <Widget>[
 //----------------------------------------------------------------------------//
                   SizedBox(
-                      height: MediaQuery.of(context).size.height * 0.003.h),
+                      height: MediaQuery.of(context).size.height * 0.005.h),
                   Align(
                     alignment: Alignment.center,
                     child: Container(
                       padding: EdgeInsets.only(left: 15.0.sp, right: 15.0.sp),
                       child: Image.asset(
-                        GlobalImage.OfflineImg,
+                        GlobalImage.LogoImg,
                         fit: BoxFit.contain,
-                        width: MediaQuery.of(context).size.width * 0.7,
-                        height: 12.h,
+                        //width: MediaQuery.of(context).size.width * 0.8,
+                        height: 15.h,
                       ),
                     ),
                   ),

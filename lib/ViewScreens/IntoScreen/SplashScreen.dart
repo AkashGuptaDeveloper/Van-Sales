@@ -27,7 +27,7 @@ class SplashScreenState extends State<SplashScreen>
 
 //----------------------------------------------------------------------------//
   startTimeout() async {
-    var duration = const Duration(seconds: 5);
+    var duration = const Duration(seconds: 10);
     return Timer(
       duration,
       handleTimeout,
@@ -73,7 +73,7 @@ class SplashScreenState extends State<SplashScreen>
                 padding: EdgeInsets.all(8.0.sp),
                 child: Center(
                   child: Image.asset(
-                    GlobalImage.OfflineImg,
+                    GlobalImage.LogoImg,
                     width: MediaQuery.of(context).size.width * 0.8,
                   ),
                 ),

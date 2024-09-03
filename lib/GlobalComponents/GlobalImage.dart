@@ -2,5 +2,6 @@
 //===================GlobalAppColor===========================================//
 class GlobalImage {
   static String OfflineImg = "assets/offline.png";
+  static String LogoImg = "assets/Van-Sales-Software.jpg";
 }
 //======================================END===================================//
