@@ -52,7 +52,6 @@ dependencies:
   animated_text_kit: any
   #geolocator: any
   google_fonts: any
-  file_picker: any
   flutter_datetime_picker_plus: any
   sizer: ^2.0.15
 

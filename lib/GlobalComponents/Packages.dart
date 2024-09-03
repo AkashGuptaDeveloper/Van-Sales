@@ -12,7 +12,6 @@ export 'package:animated_text_kit/animated_text_kit.dart';
 export 'package:cached_network_image/cached_network_image.dart';
 export 'package:connectivity_plus/connectivity_plus.dart';
 export 'package:dropdown_button2/dropdown_button2.dart';
-export 'package:file_picker/file_picker.dart';
 export 'package:flutter/cupertino.dart';
 export 'package:flutter/foundation.dart';
 export 'package:flutter/gestures.dart';
