@@ -44,18 +44,18 @@ class OnBoardingScreenState extends State<OnBoardingScreen>
               initialPage: 0,
               infiniteAutoScroll: false,
               freeze: false,
-              globalHeader: Align(
+              /*globalHeader: Align(
                 alignment: Alignment.topRight,
                 child: SafeArea(
                   child: Padding(
                     padding: EdgeInsets.only(top: 15.sp, right: 15.sp),
-                    child: _buildImage('logo.png', 20.h),
+                    child: _buildImage(GlobalImage.OfflineImg, 20.h),
                   ),
                 ),
-              ),
+              ),*/
               pages: [
                 PageViewModel(
-                  title: "Learn about HRMS",
+                  title: "Learn about Van Sales",
                   body:
                       "Streamline your staff management in the most simplistic ways Leading the way modern staff management solutions.",
                   image: _buildImage('img02.png'),
@@ -79,10 +79,10 @@ class OnBoardingScreenState extends State<OnBoardingScreen>
                   ),
                 ),
                 PageViewModel(
-                    title: "HRMS TimeSheet",
+                    title: "VanSales",
                     body:
                         "Customize attendance area with the office radius setting. Attendance marking is as simple as taking a selfie",
-                    image: _buildImage('img03.png'),
+                    image: _buildImage(GlobalImage.OfflineImg),
                     decoration: PageDecoration(
                       titleTextStyle: GoogleFonts.getFont(
                           GlobalFlag.GoogleFontsOpenSans,
@@ -105,7 +105,7 @@ class OnBoardingScreenState extends State<OnBoardingScreen>
                     title: "Secure Login",
                     body:
                         "Track field force with a real-time location tracker. manage leave updates of your staff at your fingertips.",
-                    image: _buildImage('img05.png'),
+                    image: _buildImage(GlobalImage.OfflineImg),
                     decoration: PageDecoration(
                       titleTextStyle: GoogleFonts.getFont(
                           GlobalFlag.GoogleFontsOpenSans,
